@@ -87,6 +87,8 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 -include $(LOCAL_PATH)/vendor_props.mk
+-include $(LOCAL_PATH)/product_prop.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # RIl
 PRODUCT_PACKAGES += \
